@@ -72,7 +72,7 @@ baud rate = (system clock frequency)/(2(UBRR+1))
 
 * ### SPI data register:-
 |MSB|||||||LSB|
-| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |\
+| ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- | ----------- |
 
 ## Two-Wire-Interface
 ### It alows us to connect a number of related devices using a two wire scheme.It allows a max of 128 devices connected together with each device having its own unique address and supports a maximum frequency of 400 kHz
