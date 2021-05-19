@@ -49,5 +49,10 @@
 ### The Atmega328p is equipped with an eight-channel ADC subsystem.
 ### ADC converts an analog signal from the outside world into a binary representation suitable for use by the microcontroller.
 
+## Stack and Stack pointers
+* ### Stack:- Data allocated in internal SRAM for storing temporary data,local variables and return addresses after interrupts and subroutine calls.When interrupts and subroutine calls are executed,the return address is stored on the stack.Stack size is limited by total SRAM size and the usage of SRAM.
+
+* ### Stack pointer:- 16 bit registers composed of two 8 bit registers SPL and SPH.Points to the top of the stack,which is in the data SRAM stack area where the subroutine and interrupt stacks are located.
+
 ## Interrupts
 ### The normal execution of a program step follows a designated sequence of instructions.However,sometimes, this normal sequence of events must be interrupted to respond to high-priority faults and status both inside and outside the microcontroller.When these higher-priority events occur, the microcontroller must temporarily suspend normal operation and execute event specific actions called an interrupt service routine. Once the higher priority event has been serviced, the microcontroller returns and continues processing the normal program.
