@@ -12,4 +12,4 @@ There are 3 general mechanisms to synchronise the mcu with I/O devices
 - Interrupt
 
 **Blind cycle-** In this method software simply waits a fixed amount of time and assumes the I/O will complete before the delay ends.This method is called blind because there is no status information about the I/O device reported to the software.
-![working](2021-06-20-13-33-53.mp4)
+![working](https://media.giphy.com/media/BwY7rAK4I48T2TIcEF/giphy.gif)
