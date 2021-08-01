@@ -5,11 +5,11 @@
 
 ### Power supply and clock signals
 **VCC,GND,(X1,X2)**
-Power,ground and crystal connection pins.
+- Power,ground and crystal connection pins.
 
 ### Address bus
 **A8-A15**
-It carries the most significant 8 bits of the memory/IO address.
+- It carries the most significant 8 bits of the memory/IO address.
 
 ### Data bus
 **AD0-AD7** 
