@@ -21,13 +21,17 @@
 - It is an output signal used to give information of AD0-AD7 contents.
 - When pulse goes high it indicates that AD0-AD7 are address.
 - When it is low it indicates that the contents are data.
+
 **RD** 
 - Read memory or IO device
 - It indicates that the selected memory location or I/O device is to be read and that the data bus is ready for accepting data from the memory or I/O device.
+
 **WR**
 - Write to memory or IO device
 - This indicates that the data on the data bus is ready to be written into the selected memory location or I/O device.
-**IO/M** - Select memory or an IO device
+
+**IO/M** 
+- Select memory or an IO device
 - It goes high to indicate an I/O operation.
 - It goes low for memory operations.
 
