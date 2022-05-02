@@ -1,2 +1,1 @@
-# Learning_AVR
-This repository contains notes I made while learning Embedded systems.
+This branch contains materials,codes and basic description of concepts I learned while learning about Free-RTOS
